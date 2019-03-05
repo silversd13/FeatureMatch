@@ -115,7 +115,10 @@ Params.Fig = figure('units','normalized','position',[.25,.2,.5,.6]);
 Params.TargetAxis = subplot(2,1,1);
 Params.FeedbackAxis = subplot(2,1,2);
 % plot target map
-PlotFeatureMap(Params.TargetAxis,Params.TargetVec,Params.ChLayout,'Target Map');
+PlotFeatureMap(Params.TargetAxis,...
+    Params.TargetVec,...
+    Params.ChLayout,...
+    'Target Map');
 
 %% Start
 try    
