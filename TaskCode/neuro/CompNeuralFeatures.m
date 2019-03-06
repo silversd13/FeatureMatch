@@ -38,5 +38,7 @@ end
 % set bad channels to 0
 neural_features(:,Neuro.BadChannels) = 0;
 
+Neuro.NeuralFeatures = neural_features;
+
 end % CompNeuralFeatures
 

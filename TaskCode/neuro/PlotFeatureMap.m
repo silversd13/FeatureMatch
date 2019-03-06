@@ -21,6 +21,6 @@ if isempty(ax.Children),
 else,
     ax.Children.CData = plot_mtrx;
 end
-drawnow;
+drawnow limitrate;
 
 end

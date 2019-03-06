@@ -81,7 +81,7 @@ tmp = load(fullfile(pathname,filename));
 Params.TargetVec = tmp.FeatureVec;
 
 %% BlackRock Params
-Params.GenNeuralFeaturesFlag = true;
+Params.GenNeuralFeaturesFlag = false;
 Params.ZscoreRawFlag = true;
 Params.ZscoreFeaturesFlag = false;
 Params.SaveProcessed = false;
